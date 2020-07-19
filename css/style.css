@@ -1,0 +1,322 @@
+body{
+    background-color: #8E8E8E;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav{
+    color: grey;
+    font: 20px;
+    margin: 15px 185px 15px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: Lucida Handwriting;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: Lucida Handwriting;
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+    color: black;
+    font-family: Kristen ITC;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    border: 0px solid;
+    border-bottom: 1px solid;
+    border-bottom-color: #BDBDBD;
+    font-size: 30px;
+    color: grey;
+    background-color: transparent;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+textarea{
+    border: 0px solid;
+    border-bottom: 1px solid;
+    border-bottom-color: #BDBDBD;
+    font-size: 30px;
+    color: grey;
+    background-color: transparent;
+    font-family: sans-serif;
+    resize: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.navbarmain{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: pink;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color:#592059;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 75px;
+    margin: 15px 0px 15px 185px;
+}
+.logo-img{
+    width: 200px;
+    height: 70px;
+}
+.nav-buttons{
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 13px;
+    padding-top: -90%;
+    border-radius: 7px;
+    transition: 0.5s ease;
+
+}
+
+.nav-buttons:hover{
+    color:black;
+    background-color: orange;
+    line-height: 10px;
+    border-radius: 7px;
+}
+
+.nav-buttons:active{
+    background-color: white !important;
+}
+#about-me{
+   margin-top: 170px;
+    background-color: #ADADAD;
+    height: 370px;
+    position: auto;
+    display: inline-flex;
+}
+
+.text-only{
+    width: 70%;
+    height: 100%;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+.about-me-text{
+    color: black;
+    font-family: Ink Free;
+    font-weight: 500;
+    font-size: 26px;
+    width: 100%;
+    height: auto;  
+    text-align: left; 
+}
+.star-bright{
+    width: 90%;
+    height: 3px;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+.skills-me{
+    color: black;
+    font-family: Ink Free;
+    font-weight: 500;
+    font-size: 26px;
+    width: 100%;
+    text-align: auto; 
+}
+.btn
+{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding:  8px 30px;
+    margin: 30px 0;
+    border-radius: 25px;
+    transition: background 0.5s ease;
+}
+.btn:hover
+{
+    background: #563434;
+}
+.image-only{
+    width: 70%;
+    height: auto;
+    position: auto;
+    
+}
+
+.image-class{
+    width: 100%;
+    height:auto; 
+    border-style: none;
+    border-radius: 30%;
+}
+
+#Stuff{
+    
+    background-color: white;
+    height: auto;
+    position: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #BDBDBD;
+}
+
+.star-dark{
+    width: 70%;
+    height: 3px;
+    color: grey;
+    background-color: grey;
+}
+
+.image-outer{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;    
+}
+
+.image-inner{
+    width: 47%;
+}
+.image-value{
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    transition: background 0.5s ease;
+}
+#company
+{  
+    background-color: whitesmoke;
+    height: auto;
+    position: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.outer-div
+{
+    width: 85%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+
+
+.contact-text-div
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    font-family: Lucida Handwriting;
+}
+
+
+.footer-top{
+    height: 75%;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-links{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px 70px 50px 0px;
+}
+
+.button-social{
+    color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 48px;
+}
+
+.button-social:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 48px;
+}
+
+.footer-bottom{
+    background-color:pink;
+    height: 25%;
+    padding-top: 2px;
+}
+.te
+{
+    font-size: 40px;
+    font-style: Harlow Solid;
+    color: black;
+    text-align: center;
+    padding: -50px;
+}
+.ter
+{
+    font-size: 15px;
+    font-style: Rage;
+    color: black;
+    text-align: left;
+    padding: -50px;
+}
+.tej
+{
+    font-size: 15px;
+    font-style: Rage;
+    color: black;
+    text-align: justify-all;
+    padding: -50px;
+}
+.tel
+{
+    font-size: 15px;
+    font-style: Rage;
+    color: black;
+    text-align: right;
+    padding: -50px;
+}
